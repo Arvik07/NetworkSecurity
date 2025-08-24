@@ -1,0 +1,6 @@
+[ 2025-08-25 00:23:49,628 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-25 00:23:49,641 ] 107 dagshub - INFO - Accessing as Arvik07
+[ 2025-08-25 00:23:50,297 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Arvik07/ML_project3 "HTTP/1.1 200 OK"
+[ 2025-08-25 00:23:51,645 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-25 00:23:51,648 ] 107 dagshub - INFO - Initialized MLflow to track repo "Arvik07/ML_project3"
+[ 2025-08-25 00:23:51,649 ] 107 dagshub - INFO - Repository Arvik07/ML_project3 initialized!
