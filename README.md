@@ -11,6 +11,7 @@ Key Highlights:
 - ✅ CI/CD automation with **GitHub Actions**  
 - ✅ Integrated with **AWS S3, EC2, and MongoDB Atlas** for cloud storage & scalability  
 
+  <img src="images/phishing_architecture.png" alt="Workflow" width="450"/>
 ---
 
 ## 🏗 Tech Stack
@@ -37,26 +38,45 @@ The dataset includes **30+ features** that indicate whether a URL is suspicious 
 ## 🚀 Project Workflow
 1. **Data Preprocessing** → Encoded and cleaned 30+ features  
 2. **Model Training** → Applied multiple ML classifiers and tuned hyperparameters  
-3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub**  
-   ![MLflow Dashboard](images/accuracy.png)  
-4. **Deployment** → Built **FastAPI** app for phishing detection  
-   ![FastAPI Swagger UI](images/Fastapi.png)  
-5. **CI/CD & Cloud Integration** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB  
+3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub**
+   
+   <img src="images/accuracy.png" alt="MLflow Dashboard" width="300"/>
 
+   
+5. **Deployment** → Built **FastAPI** app for phishing detection
+    
+   <img src="images/Fastapi.png" alt="FastAPI UI" width="450"/>
+
+   
+7. **CI/CD Pipeline Success** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB
+   
+   <img src="images/Git_Workflow.png" alt="CI/CD Pipeline Success" width="450"/>
+
+   
+8. **AWS S3 & MongoDB Atlas Integration** => stored data/models on AWS S3 & MongoDB and deployed on AWS
+    
+   <img src ="images/MongoDB_Atlas.png" alt="MongoDb Atlas" width="400"/>
+   <img src ="images/buckets.png" alt="Buckets" width="400"/>
+   <img src ="images/EC2_instance.png" alt="EC2 instance" width="400"/>
 ---
 
-## 📸 Screenshots
-- Dagshub Tracking UI  
-- FastAPI Swagger Docs  
-- CI/CD Pipeline Success  
-- AWS S3 & MongoDB Atlas Integration  
 
-*(Add your screenshots inside an `images/` folder and reference them like above)*  
+Setup github secrets:
 
----
+AWS_ACCESS_KEY_ID =
+
+AWS_SECRET_ACCESS_KEY =
+
+AWS_REGION =
+
+AWS_ECR_LOGIN_URI = 040983495344.dkr.ecr.eu-north-1.amazonaws.com
+
+
+ECR_REPOSITORY_NAME = networkssecurity
+
 
 ## 📦 Installation & Usage
 Clone the repository:
 ```bash
-git clone https://github.com/Arvik07/ML_project3
+git clone https://github.com/Arvik07/NetworkSecurity
 cd ML_project3
