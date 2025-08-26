@@ -37,21 +37,20 @@ The dataset includes **30+ features** that indicate whether a URL is suspicious 
 ## 🚀 Project Workflow
 1. **Data Preprocessing** → Encoded and cleaned 30+ features  
 2. **Model Training** → Applied multiple ML classifiers and tuned hyperparameters  
-3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub** 
+3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub**
    <img src="images/accuracy.png" alt="MLflow Dashboard" width="300"/>
 
    
-4. **Deployment** → Built **FastAPI** app for phishing detection
-   
+5. **Deployment** → Built **FastAPI** app for phishing detection 
    <img src="images/Fastapi.png" alt="FastAPI UI" width="450"/>
 
    
-5. **CI/CD Pipeline Success** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB
+6. **CI/CD Pipeline Success** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB
    
    <img src="images/Git_Workflow.png" alt="CI/CD Pipeline Success" width="450"/>
 
    
-6. **AWS S3 & MongoDB Atlas Integration** => stored data/models on AWS S3 & MongoDB and deployed on AWS
+7. **AWS S3 & MongoDB Atlas Integration** => stored data/models on AWS S3 & MongoDB and deployed on AWS
     
    <img src ="images/MongoDB_Atlas.png" alt="MongoDb Atlas" width="400"/>
    <img src ="images/buckets.png" alt="Buckets" width="400"/>
