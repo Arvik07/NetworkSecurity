@@ -11,7 +11,7 @@ Key Highlights:
 - ✅ CI/CD automation with **GitHub Actions**  
 - ✅ Integrated with **AWS S3, EC2, and MongoDB Atlas** for cloud storage & scalability  
 
-<img src="images/phishing_architecture.png" alt="FastAPI UI" width="450"/>
+  <img src="images/phishing_architecture.png" alt="Workflow" width="450"/>
 ---
 
 ## 🏗 Tech Stack
