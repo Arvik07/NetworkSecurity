@@ -38,18 +38,18 @@ The dataset includes **30+ features** that indicate whether a URL is suspicious 
 1. **Data Preprocessing** → Encoded and cleaned 30+ features  
 2. **Model Training** → Applied multiple ML classifiers and tuned hyperparameters  
 3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub**  
-   ![MLflow Dashboard](images/mlflow.png)  
+   ![MLflow Dashboard](images/accuracy.png)  
 4. **Deployment** → Built **FastAPI** app for phishing detection  
-   ![FastAPI Swagger UI](images/fastapi.png)  
+   ![FastAPI Swagger UI](images/Fastapi.png)  
 5. **CI/CD & Cloud Integration** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB  
 
 ---
 
 ## 📸 Screenshots
-- MLflow Tracking UI  
+- Dagshub Tracking UI  
 - FastAPI Swagger Docs  
 - CI/CD Pipeline Success  
-- AWS S3 & MongoDB Integration  
+- AWS S3 & MongoDB Atlas Integration  
 
 *(Add your screenshots inside an `images/` folder and reference them like above)*  
 
