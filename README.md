@@ -39,10 +39,16 @@ The dataset includes **30+ features** that indicate whether a URL is suspicious 
 2. **Model Training** → Applied multiple ML classifiers and tuned hyperparameters  
 3. **Experiment Tracking** → Logged results in **MLflow** hosted on **DagsHub**  
    <img src="images/accuracy.png" alt="MLflow Dashboard" width="300"/>
+
+   
 4. **Deployment** → Built **FastAPI** app for phishing detection  
    <img src="images/Fastapi.png" alt="FastAPI UI" width="450"/>
+
+   
 5. **CI/CD Pipeline Success** → Automated pipelines with GitHub Actions, stored data/models on AWS S3 & MongoDB  
    <img src="images/Git_Workflow.png" alt="CI/CD Pipeline Success" width="450"/>
+
+   
 6. **AWS S3 & MongoDB Atlas Integration** => stored data/models on AWS S3 & MongoDB and deployed on AWS
    <img src ="images/MongoDB_Atlas.png" alt="MongoDb Atlas" width="400"/>
    <img src ="images/buckets.png" alt="Buckets" width="400"/>
@@ -50,12 +56,18 @@ The dataset includes **30+ features** that indicate whether a URL is suspicious 
 ---
 
 
-*(Add your screenshots inside an `images/` folder and reference them like above)*  
+Setup github secrets:
 
----
+AWS_ACCESS_KEY_ID =
+AWS_SECRET_ACCESS_KEY =
+AWS_REGION =
+AWS_ECR_LOGIN_URI = 040983495344.dkr.ecr.eu-north-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = networkssecurity
+
 
 ## 📦 Installation & Usage
 Clone the repository:
 ```bash
-git clone https://github.com/Arvik07/ML_project3
+git clone https://github.com/Arvik07/NetworkSecurity
 cd ML_project3
